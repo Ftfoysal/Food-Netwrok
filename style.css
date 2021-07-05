@@ -5,17 +5,25 @@ body{
 .first-banner{
     display: flex;
     margin-bottom: 100px;
+    justify-content: space-around;
 }
 
 .seceond-banner{
     display: flex;
     background-image:url(images/shapes/7.png);
+    justify-content: space-around;
+    
 }
 
 .seceond-banner img{
     margin-top: 50px;
     margin-left:130px;
     width: 50%;
+}
+
+.seceond-banner p{
+    width: 80%;
+
 }
 
 h1{
@@ -27,20 +35,59 @@ h2{
     font-size: 25px;
 }
 
+p{
+    text-align: justify;
+}
+
 .half-part{
     margin-top:130px;
-    margin-left:80px;
+    
 
 }
+
+.half-part2{
+    margin-top:100px ;
+    
+
+}
+
 .skip-part{
     color:rgb(223, 66, 9);
 }
 
-.order-button{
+.btn a{
     background-image:linear-gradient(tomato, #df3112);
-    padding:20px 40px;
+    padding:20px 45px;
     text-decoration:none;
     border-radius: 35px;
     color:white;
     font-weight:500;
 }
+
+.btn{
+    margin-top: 60px;
+}
+
+
+
+.my-recipies{
+    text-align: center;
+}
+.my-recipies p{
+width: 80%;
+margin: auto;
+padding: 30px;
+
+}
+
+.food-images{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.food-images .box-1, .box-2, .box-3{
+    width: 30%;
+    margin-left: 3%;
+}
+    
