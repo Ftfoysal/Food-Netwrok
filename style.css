@@ -1,5 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .first-banner{
@@ -7,6 +9,30 @@ body{
     margin-bottom: 100px;
     justify-content: space-around;
 }
+
+.first-banner h1{
+    font-size: 53px;
+    color: #1f1e1ec2;
+}
+
+.first-part{
+    margin-top:130px;
+    margin-left: 20px;
+    
+}
+
+.btn a{
+    background-image:linear-gradient(45deg, orange, #f73310);
+        padding:21px 45px;
+        text-decoration:none;
+        border-radius: 35px;
+        color:white;
+        font-weight:500;
+    }
+    
+    .btn{
+        margin-top: 70px;
+    }
 
 .seceond-banner{
     display: flex;
@@ -21,62 +47,46 @@ body{
     width: 50%;
 }
 
-.seceond-banner p{
+.seceond-part{
+    margin-top: 80px;
+ margin-left: 140px;
+}
+
+.seceond-part h2{
+    font-size: 38px;
+    color: #1f1e1eb5;
+}
+
+.seceond-part p{
     width: 80%;
-
-}
-
-h1{
-    font-size: 55px;
-    color: #1f1e1ec2;
-}
-
-h2{
-    font-size: 25px;
-}
-
-p{
-    text-align: justify;
-}
-
-.half-part{
-    margin-top:130px;
-    
-
-}
-
-.half-part2{
-    margin-top:100px ;
-    
-
+    margin-bottom: 90px;
 }
 
 .skip-part{
     color:rgb(223, 66, 9);
 }
 
-.btn a{
-    background-image:linear-gradient(tomato, #df3112);
-    padding:20px 45px;
-    text-decoration:none;
-    border-radius: 35px;
-    color:white;
-    font-weight:500;
-}
 
-.btn{
-    margin-top: 60px;
-}
 
+.third-banner{
+    margin-bottom: 100px;
+}
 
 
 .my-recipies{
     text-align: center;
+    margin-top: 80px;
 }
+
+.my-recipies h2{
+    font-size: 38px;
+    color: #1f1e1eb5;
+}
+
 .my-recipies p{
-width: 80%;
+width: 60%;
 margin: auto;
-padding: 30px;
+padding: 10px 30px 30px 30px;
 
 }
 
@@ -88,6 +98,65 @@ padding: 30px;
 
 .food-images .box-1, .box-2, .box-3{
     width: 30%;
-    margin-left: 3%;
+    margin-left: 3.3%;
+    box-shadow: 10px 10px 20px gray;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.followers{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    padding:20px 0;
+    
+}
+
+.followers h1{
+font-size: 45px;
+}
+
+.footer-part{
+    text-align: center;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom:100px;
+
+}
+
+.footer-food{
+color:tomato;
+
+}
+.footer-network{
+    color: gray;
+}
+
+.footer-part p{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
     
