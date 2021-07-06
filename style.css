@@ -4,6 +4,10 @@ body{
     padding: 0;
 }
 
+p{
+    color: #5b6163f0;
+}
+
 .first-banner{
     display: flex;
     margin-bottom: 100px;
@@ -99,7 +103,7 @@ padding: 10px 30px 30px 30px;
 .food-images .box-1, .box-2, .box-3{
     width: 30%;
     margin-left: 3.3%;
-    box-shadow: 10px 10px 20px gray;
+    box-shadow: 5px 5px 10px gray;
     padding: 20px;
     border-radius: 10px;
 }
@@ -110,10 +114,10 @@ padding: 10px 30px 30px 30px;
     width: 80%;
     margin: auto;
     text-align: center;
-    box-shadow: 10px 10px 20px gray;
+    box-shadow: 5px 5px 10px gray;
     border-radius: 10px;
-    margin-bottom: 40px;
-    padding:20px 0;
+    margin-bottom: 80px;
+    padding:16px 0;
     
 }
 
